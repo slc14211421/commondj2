@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/blog/admin.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog/models.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog/static" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog/templatetags" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog/urls.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comments/admin.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comments/forms.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comments/models.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comments/urls.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comments/views.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commonapi/admin.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commonapi/models.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commonapi/myaction.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commonapi/urls.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commonapi/views.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/blog" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
