@@ -27,6 +27,6 @@ linux 下需要安装 MySQL-python 即可支持 安装包在操作系统安装�
 
 ## Django admin
 
-admin/njitv1302
+admin/admin123654
 
 
