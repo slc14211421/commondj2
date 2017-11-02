@@ -1,8 +1,8 @@
 # commondj2
 
 ## Install
-
-cd commondj2_envInstall ; sh install.sh
+将安装包解压到 /opt 目录下
+cd /opt/commondj2/commondj2_envInstall ; sh install.sh
 
 
 ## Config
