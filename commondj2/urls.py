@@ -21,4 +21,6 @@ urlpatterns = [
     url(r'blog/', include('blog.urls')),
     url(r'^commonapi/', include('commonapi.urls')),
     url(r'^admin/', admin.site.urls),
+    url(r'^apiMonitor/', include('apiMonitor.urls')),
+
 ]

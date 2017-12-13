@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'commonapi',
     'blog',
     'comments',
+    'apiMonitor',
 ]
 
 MIDDLEWARE_CLASSES = [
