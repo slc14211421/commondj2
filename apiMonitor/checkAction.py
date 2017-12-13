@@ -10,7 +10,7 @@ def checkMarket(hostip):
         res=requests.get(url=checkurl)
         if res.status_code == 200 :
             resdic=simplejson.JSONDecoder().decode(res.content)
-            if resdic['result']['errorcode'] == "2" :
+            if resdic['result']['errorcode'] == "2":
                 return "SUCESS"
             else:
                 return "FAILED"
