@@ -10,11 +10,15 @@ def checkApi(request):
 
         projectNname = request.GET.get('project')
         hostip = request.GET.get('hostip')
+
         if projectNname == "market":
             result = checkAction.checkMarket(hostip)
 
         if projectNname == "portalProxy":
             result = checkAction.checkPortalProxy(hostip)
+
+        if projectNname == "liuhuaPortal":
+            result = checkAction.checkliuhuaPortal(hostip)
 
         return HttpResponse(result)
     else:
