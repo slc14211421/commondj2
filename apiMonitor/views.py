@@ -8,10 +8,13 @@ from . import checkAction
 def checkApi(request):
     if request.method == 'GET':
 
-        projectNname =request.GET.get('project')
-        hostip=request.GET.get('hostip')
-        if projectNname == "market" :
-            result=checkAction.checkMarket(hostip)
+        projectNname = request.GET.get('project')
+        hostip = request.GET.get('hostip')
+        if projectNname == "market":
+            result = checkAction.checkMarket(hostip)
+
+        if projectNname == "portalProxy":
+            result = checkAction.checkPortalProxy(hostip)
 
         return HttpResponse(result)
     else:
