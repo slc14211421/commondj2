@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import request,HttpResponse
+from django.http import request,HttpResponse,HttpResponseRedirect
 import requests
 from . import checkAction
 
@@ -10,6 +10,7 @@ def checkApi(request):
 
         projectNname = request.GET.get('project')
         hostip = request.GET.get('hostip')
+        monitorType = request.GET.get('monitorType')
 
         if projectNname == "market":
             result = checkAction.checkMarket(hostip)
@@ -19,6 +20,9 @@ def checkApi(request):
 
         if projectNname == "liuhuaPortal":
             result = checkAction.checkliuhuaPortal(hostip)
+
+        if str(monitorType) == "hostmonitor" and result == "FAILED":
+            return HttpResponseRedirect("http://www.juesterror404.com")
 
         return HttpResponse(result)
     else:
